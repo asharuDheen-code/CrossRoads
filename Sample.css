@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 80px;
+}
+.head{
+    width: 100%;
+    height: 80px;
+    background: black;
+}
+.text1{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin-left: 15px;
+    margin-bottom: 46px;
+    line-height: 52px;
+}
+.text2{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 15px;
+    background: white;
+    border-radius: 2px;
+    margin-left: 19px;
+}
+.text3{
+    color: red;  
+}
+div ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+div ul li{
+    display: block;
+    line-height: 80px;
+  margin: 0 5px;
+   float: left;
+}
+div ul li a{
+    color: #ffffff;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+.a,a:hover{
+    background: #131d25;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    line-height: 80px;
+    margin-right: 25px;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media ( max-width: 952px ) {
+    label.logo.text1.text2{
+        font-size: 30 px;
+       padding-left: 30px;
+    }
+    div ul li a{
+       font-size: 16px;
+      
+    }
+}
+@media ( max-width: 858px ) {
+    .checkbtn{
+        display: block;
+    }
+    ul {
+        float: right;
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        background-color: black;
+        top: 130px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+    div ul li{
+       display: block;
+    }
+    div ul li a{
+        font-size: 20px;
+    }
+    a:hover,a{
+        background: none;
+        color: gray;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    li a{
+        float: right;
+        align-items: center;
+        text-align: center;
+    }
+}
+.banner-layer{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.banner{
+	background:url(image/rebel-blog-java-microservices-framework.png) no-repeat;
+	background-size:cover;
+    height: calc(1vh - 0);
+    align-items:center; 
+}
+.banner-layer {
+    background: url(image/rebel-blog-java-microservices-framework.png)repeat;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 710px;
+}
+.para{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 10px;
+    font-size: 30px;
+   
+}
+ol li{
+    color:#ebebeb;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 0;
+    background: no-repeat;
+}
+.about{
+    width: 100%;
+    height: 300px;
+
+}
+.img0{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 110px;
+    margin-left: 560px;
+    margin-top: 60px;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 101px;
+}
+p{
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-size: cover;
+    padding: 20px 0;
+    display: block;
+    line-height: 45px;
+}
+.tutorial-body{
+    width: 100%;
+    height: 400px;
+    background: #ffffff;
+}
+.tutorial{
+   text-align: center;
+    text-transform: uppercase;
+    padding: 18px 0;
+    letter-spacing: 3px;
+    text-underline-position: under;
+    border-bottom: 2px solid #ebebeb;
+}
+.vd{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    letter-spacing: 120px;
+    padding-top: 41px;
+} 
+.upcoming-body{
+    width: 100%;
+    height: 400px;
+    background: #ffffff;
+}
+.upcoming{
+    text-align: center;
+    padding: 18px 0;
+    letter-spacing: 3px;
+    text-underline-position: under;
+    border-bottom: 2px solid #ebebeb;
+    text-transform: uppercase;
+    color: #d43434;
+    margin-top: 115px;
+}
+.cmng{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 41px;
+} 
+div a.hover:hover{
+    background: #c0d8ec;
+    transition: .5s;
+    
+}
+.cpy{
+    text-align: center;
+    color: #c0d8ec;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 215px;
+    margin-left: -42%;
+}
+  .Submit[type=submit]:hover {
+    background-color: #45a049;
+}
+  .container {
+    align-items: center;
+    width: 80%;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    margin-left: 10%;
+}
+  .img1{
+    border-radius: 11px;
+    /* padding: 4px; */
+    margin-top: 60px;
+    display: block;
+    margin-left: 10%;
+    width: 15%;
+}
+.service{
+    width: 100%;
+    height: 500px;
+    background: url('https://static1.squarespace.com/static/56be46d2a3360cae707270a0/t/5772ef9b20099e38818859b0/1467150245253/');
+    background-size: cover;
+  }
+  .overlay{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+.service-text{
+    text-align: center;
+    color: #fff;
+    padding: 31px 0;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #ebebeb;
+}  
+footer{
+    width: 100%;
+    height: 100px;
+    background: #131d25;  
+}
+.icons{
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 11px 0;
+    position: relative;
+}
+.icon{
+    color: #5a9168;
+    background-color: #131d25;
+    border-radius: 11px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px 5px;
+}
+.icon:hover {
+    background-color: #393c3f;
+}
+.infom{
+    color: #72747a;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
