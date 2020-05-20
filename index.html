@@ -7,10 +7,11 @@
     <link rel="icon" href="image/Cross Roads.jpg">
     <link rel="stylesheet" href="Sample.css"> 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="Script.js"></script>
 </head>
 <body>
 
-    <header class="nav">
+    <header class="nav" id="myHeader" >
         <div class="head">
           <input type="checkbox" id="check">
           <label for="check" class="checkbtn">
@@ -19,10 +20,10 @@
             <label class="logo"> <a href="" class="text1">cross <span class="text3">roads</span> </a><br><span class="text2">how far can you go</span> </label> 
           <ul >
             <li><a class="active" href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#lessons">Services</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Feedback</a></li>
+            <li><a  class="active" href="#about">About</a></li>
+            <li><a  class="active" href="#lessons">TUTORIALS</a></li> 
+            <li><a   class="active" href="#services">Services</a></li>
+            <li><a href="#Feedback">Feedback</a></li>
           </ul>
         </div>
       </header>
@@ -49,7 +50,7 @@
       </div>
     </section>
     <div class="upcoming-body" class="col-12 col-md-4">
-      <h2 class="upcoming">up coming lessons </h2>
+      <h2 class="upcoming">upcoming lessons </h2>
         <div class="cmng" class="col-12 col-md-4">
           <iframe  width="auto" height="200" src="https://www.youtube.com/embed/i_IQ1vQDnFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br>
@@ -57,13 +58,13 @@
         </div>
     </div>
 
-    <div class="service">
+    <div class="service" id="services">
       <div  class="overlay" class="col-md-6" class="rows">
         <h2 class="service-text" class="align-text-bottom">Services</h2>
       </div>
     </div>
 
-   <div class="col-12 col-md-4">
+   <div class="col-12 col-md-4" id="Feedback">
     <img class="img1" class="col-12 col-md-4" src="image/letskeepintouch.jpg" alt="Avatar">
     <div class="container" class="col-12 col-md-4">
       <form action="action_page.php" class="col-sm-12 my-auto">
@@ -83,7 +84,7 @@
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
     
-        <input class="Submit" type="submit" value="Submi">
+        <input class="Submit" type="submit" value="Submit">
       </form>
     </div>
    </div>
@@ -101,13 +102,13 @@
       </div>
     </footer>
     
-   
+    <script src="Script.js"></script>
     <script src="https://kit.fontawesome.com/a076d" class="rows 05399.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
+    <script src="Script.js"></script>
 </body>
 </html>
